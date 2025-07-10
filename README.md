@@ -6,6 +6,7 @@ interactive design to help users explore mathematical patterns
 and puzzle-solving.
 
 How-To-Play: Rules
-- A number is given at the center "5".
-- You are suppose to place numbers 1 to 9.
+For the 3x3 - magic square
+- A number is given at the center.
+- You are suppose to place numbers.
 - Each row, column and diagonal should sum up to 15.
