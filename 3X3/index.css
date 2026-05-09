@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: San-serif;
+    box-sizing: border-box;
+  }
+
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container div{
+    margin: 10px;
+}
+
+ul{
+    text-align: justify;
+    align-items: center;
+}
+li{
+    font-size: larger;
+}
+
+#gameboard{
+    width: 244px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-inline-start: 35px;
+}
+
+#gameboard input{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    border: 2px solid;
+    text-align: center;
+    padding: 4px;
+}
+
+input:hover{
+    background-color: rgba(175, 166, 166, 0.751);
+}
+input:nth-child(1){
+	background-color: gold;
+}
+input:nth-child(3){
+	background-color: gold;
+}
+input:nth-child(5){
+	background-color: gold;
+}
+input:nth-child(7){
+	background-color: gold;
+}
+input:nth-child(9){
+	background-color: gold;
+}
+
+.start{
+    margin-top: 30px;
+    margin-inline-start: -20%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+button:hover{
+    background-color: rgba(130, 125, 125, 0.751);
+}
+
+span{
+    font-size: xx-large;
+    margin-top: 5%;
+}
