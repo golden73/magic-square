@@ -7,6 +7,6 @@ and puzzle-solving.
 
 How-To-Play: Rules
 For the 3x3 - magic square
-- A number is given at the center.
+- A number is given at the center. 5
 - You are suppose to place numbers.
 - Each row, column and diagonal should sum up to 15.
