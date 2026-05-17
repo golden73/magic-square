@@ -11,10 +11,10 @@ function start() {
     const v = getBoardValues();
     const resultSpan = document.getElementById('display');
 
-    // 1. Unique number Check (1-9)
+    // Unique number Check (1-9)
     const uniqueNumbers = new Set(v.filter(num => num >= 1 && num <= 9));
 
-    // 2. Sum Calculations
+    // Sum Calculations
     const r1 = v[0] + v[1] + v[2];
     const r2 = v[3] + v[4] + v[5];
     const r3 = v[6] + v[7] + v[8];
@@ -26,7 +26,7 @@ function start() {
 
     const all15 = [r1, r2, r3, c1, c2, c3, d1, d2].every(sum => sum === 15);
 
-    // 3. Validation Logic
+    // Validation Logic
     if (all15 && uniqueNumbers.size === 9) {
         resultSpan.innerHTML = "Success! The Magic is real.";
         resultSpan.style.color = "#2ecc71";
